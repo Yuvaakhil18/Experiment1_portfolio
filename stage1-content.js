@@ -44,5 +44,6 @@ globalThis.portfolioStage1Text = (items, CanvasTexture) => items.map((item, inde
   }
   return {...item, texture: textures[index], atlasUV: {offset:[0,0],scale:[1,1]}, rotate:false};
 });
+await import('/loader-y.js');
 await import('/stage2-content.js');
-await import('/assets/main-B9-HtP-f.js');
+await import('/assets/main-B9-HtP-f.js?branding=yuva-1');
