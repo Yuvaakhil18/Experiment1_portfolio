@@ -1,0 +1,16 @@
+/* Portfolio keeps the original scene controls but removes university-only actions. */
+.hud-xp,
+.waitlist-bar,
+.hud-waitlist-btn {
+  display: none !important;
+}
+
+.eg-cluster,
+.eg-track,
+.mp-join {
+  display: none !important;
+}
+
+.map-panel {
+  display: none !important;
+}
