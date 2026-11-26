@@ -54,4 +54,3 @@ globalThis.portfolioStage4Text = (items, CanvasTexture) => {
   });
 };
 await import('/stage5-content.js');
-await import('/assets/main-B9-HtP-f.js');
